@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*-------------- header ---------------*/
+
+header{
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1200px;
+    height: 65vh;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 20px 15px;
+    vertical-align: middle;
+}
+
+.text-white{
+    color: white;
+}
+
+.space{
+    margin: 0 100px;
+}
+
+.button{
+    border-radius: 35px;
+}
+
+.small{
+    background-color: white;
+    padding: 10px;
+}
+
+.box{
+    margin: 200px auto;
+    text-align: center;
+    font-size: xx-large;
+}
+
+h1{
+    margin-bottom: 45px;
+}
+
+p{
+    margin-bottom: 55px;
+}
+
+.big{
+    padding: 20px;
+}
+
+.big-white{
+    background-color: white; 
+}
+
+.big-grey{
+    background-color: rgb(61, 61, 61); 
+}
+
+.space-button{
+    margin: 10px;
+}
+
+/*-------------- end header ---------------*/
+/* ---------------- main -------------------- */
+
+.container-2{
+    margin-top: 50px;
+}
+
+.foto{
+    display: inline-block;
+}
+
+.foto-1{
+    margin-right: 170px;
+}
+
+.testo{
+    width: 280px;
+    display: inline-block;
+    font-size: large;
+}
+
+.foto-2{
+    margin-left: 170px;
+}
+
+.testo-1{
+    margin-top: 40px;
+    vertical-align: top;
+}
+
+.center{
+    text-align: center;
+}
+
+.testo-3{
+    font-size: large;
+}
+
+.star{
+    background-image: url("../img/stars.svg");
+}
+
+.star-dimensioni{
+    width: 600px;
+    height: 60px;
+    margin: 50px auto;
+}
+
+.big-purple{
+    background-color: rgb(161, 147, 241);
+}
+
+.centro{
+    padding-top: 15px;
+}
+
+/* ----------------- end main ---------------- */
+/* -----------------------footer------------------ */
+
+footer{
+    margin-top: 200px;
+    background-color: rgb(61, 61, 61);
+}
+
+.box-2{
+    width: 200px;
+}
